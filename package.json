@@ -1,20 +1,26 @@
 {
-    "name": "hyperswap-v3",
-    "version": "1.0.0",
-    "description": "Template for Hyperswap V3 DEX interactions",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js",
-      "test": "echo \"No test specified\" && exit 0"
-    },
-    "dependencies": {
-      "dotenv": "^16.0.3",
-      "@ethersproject/abi": "^5.7.0",
-      "@ethersproject/contracts": "^5.7.0",
-      "ethers": "^5.7.0"
-    },
-    "keywords": ["dex", "v3", "hyperswap", "blockchain"],
-    "author": "",
-    "license": "ISC"
+  "name": "how-tos-v3-viem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node main.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.24",
+    "dotenv": "^16.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "undici": "^7.9.0",
+    "viem": "^2.29.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
-  
+}
