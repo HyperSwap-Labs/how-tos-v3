@@ -1,6 +1,6 @@
 # Hyperswap V3 SDK Template
 
-This repository provides a ready-to-use SDK for interacting with Hyperswap V3, including swap functionalities.
+This repository provides a ready-to-use SDK for interacting with Hyperswap V3 using VIEM, including swap functionalities.
 
 ## Features
 - Swap ERC-20 tokens (e.g., USDC ↔ ETH).
